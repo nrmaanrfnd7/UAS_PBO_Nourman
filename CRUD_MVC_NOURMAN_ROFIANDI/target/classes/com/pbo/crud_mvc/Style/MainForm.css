@@ -1,0 +1,92 @@
+
+.close{
+    -fx-background-color: #256ba1;
+    -fx-background-radius: 50px;
+    -fx-cursor: hand;
+}
+.close:hover{
+    -fx-background-color: #000;
+}
+
+.white-bg{
+    -fx-background-color: #033054;
+}
+
+.radius{
+    -fx-background-radius: 8px;
+}
+
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 5,0,0,0);
+}
+
+.main-bg{
+    -fx-background-color: #256ba1; /* Mengubah ke warna hijau kebiruan */
+}
+
+.btn{
+    -fx-background-color: #256ba1; /* Mengubah ke warna hijau kebiruan */
+    -fx-font-family: Arial;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+}
+.btn:hover{
+    -fx-background-color: #4db6b0; /* Warna biru kehijauan lebih terang saat hover */
+}
+
+.nav-btn{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-border-color: #fff;
+    -fx-border-width: .8px;
+    -fx-text-fill: #fff;
+}
+.nav-btn:hover{
+    -fx-background-color: #4db6b0; /* Mengubah hover menjadi biru kehijauan */
+    -fx-border-color: #4db6b0;
+}
+
+.table-view{
+    -fx-background-color: #033054;
+    -fx-padding: 0;
+    -fx-border-color: #033054; /* Mengubah border menjadi warna hijau kebiruan */
+    -fx-border-radius: 8px;
+}
+.table-view .column-header-background{
+    -fx-background-color: #256ba1; /* Mengubah header menjadi warna hijau kebiruan */
+    -fx-background-radius: 8px 8px 0 0;
+    -fx-background-insets: 0 0 0 0;
+}
+.table-view .column-header, .filter{
+    -fx-background-color: transparent;
+    -fx-size: 40px;
+}
+.table-view .column-header .label{
+    -fx-text-fill: #fff;
+}
+.text-field {
+    -fx-background-color: #fff;
+    -fx-border-color: #0c969c; /* Mengubah border menjadi warna hijau kebiruan */
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-font-family: Arial;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+    -fx-padding: 8px;
+}
+
+.text-field:focused {
+    -fx-border-color: #4db6b0; /* Mengubah border fokus menjadi biru kehijauan */
+    -fx-background-color: #f8fff8;
+}
+
+.text-field:hover {
+    -fx-border-color: #4db6b0; /* Mengubah border hover menjadi biru kehijauan */
+}
+
+.text-field:disabled {
+    -fx-background-color: #ddd;
+    -fx-border-color: #bbb;
+    -fx-text-fill: #999;
+}
